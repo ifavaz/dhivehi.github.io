@@ -10,72 +10,34 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: Dhivehi
-}
-
-ul.top>li>a {
-	color: #FFF;
-	text-decoration: none;
-	font-size: 12px;
-	font-family: Dhivehi
-}
-
-ul.top>li>a:hover {
-	text-decoration: underline
-}
-
-ul.r>li>a {
-	color: #2D1152;
-	text-decoration: none;
-	font-size: 14px;
-	margin: 0px;
-	padding: 0px;
-	font-family: Dhivehi
-}
-
-ul.r>li>img {
-	margin: 0px;
-	padding: 0px;
-	vertical-align: middle
-}
-
-ul.r>li>a, a.login {
-	color: #2D1152;
-	text-decoration: none;
+	font-family: Dhivehi;
 	font-size: 16px;
-	font-family: Dhivehi
 }
 
-ul.r>li>a:hover, a.login:hover {
-	text-decoration: underline
+footer {
+	background: lightgray;
+	
 }
 
-ul.top>li {
-	float: right;
-	margin: 0px;
-	padding: 0px;
-	padding-right: 15px;
-	padding-left: 15px;
-	list-style-type: none;
-	font-family: Dhivehi
+
+
+@media (max-width: 768px) {
+    .jumbotron {
+    margin: 100px 0 10px 0;
+    
+    }
+    
 }
 
-ul.info>li {
-	padding: 0px;
-	margin: 0px;
-	float: right;
-	margin-left: 22px;
-	list-style-type: none;
-	font-family: Dhivehi
+@media (max-width: 992px) {
+    
 }
 
-ul.info>li>a {
-	font-size: 14px;
-	color: #1D1DA3;
-	text-decoration: none;
-	font-family: Dhivehi
+
+@media (max-width: 1200px) {
+    
+    
 }
 
-ul.info>li>a:hover {
-	text-decoration: underline
-}
+
+
