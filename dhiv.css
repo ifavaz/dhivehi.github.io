@@ -14,9 +14,11 @@ body {
 	font-size: 16px;
 }
 
-footer {
-	background: lightgray;
-	
+.footer{
+ height:100px;
+ margin-top:47px;
+ padding: 0 0 0 0;
+ background: lightgray;
 }
 
 
@@ -24,10 +26,12 @@ footer {
 @media (max-width: 768px) {
     .jumbotron {
     margin: 100px 0 10px 0;
-    
-    }
-    
+       }
+
+
+
 }
+
 
 @media (max-width: 992px) {
     
