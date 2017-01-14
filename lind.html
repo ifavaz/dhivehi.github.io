@@ -18,24 +18,22 @@
 		$('[data-toggle="tooltip"]').tooltip();
 	});
 </script>
+<script type="text/javascript">
+		$(function() {
+
+			/* Load HTMLS .......................................... */
+			$("#navMenuDiv").load("includes/navimenu.html"); /* Navigation Menu */
+			$("#footDiv").load("includes/footed.html"); /* Navigation Footer */
+			$("#sideDiv").load("includes/sidenav.html"); /* Side Menu List */
+			
+		});
+		
+</script>
+
 </head>
 <body>
 
-	<!-- Navigation Menu -->
-
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">ދަސްކުރަމާ</a>
-			</div>
-			<ul class="nav navbar-nav navbar-right"">
-				<li><a href="#">އިތުރު މަޢުލޫމާތު</a></li>
-				<li><a href="#">ފުރަތަމަ ސަފުޙާ</a></li>
-			</ul>
-		</div>
-	</nav>
-
-	<!-- End of Navigation Menu -->
+<!-- Navigation Menu --><div id="navMenuDiv"></div><!-- End of Navigation Menu -->
 
 	<br>
 	<br>
@@ -47,7 +45,7 @@
 		<div class="row">
 
 
-			<!-- Shot Contents -->
+			<!-- Contents -->
 
 			<div class="col-sm-8">
 
@@ -82,48 +80,14 @@
 
 			</div>
 
-			<!-- End of Shot Contents -->
+			<!-- End of Contents -->
 
-			<!-- Right List of Content -->
-
-			<div class="col-sm-4">
-
-
-				<div class="panel panel-info">
-
-					<div class="panel-body">
-						Panel Content <br> Panel Content <br> Panel Content <br>
-						Panel Content <br> Panel Content <br>
-					</div>
-				</div>
-
-			</div>
-
-			<!-- End of Right List of Content -->
+<!-- Right List of Content --><div id="sideDiv"></div><!-- End of Right List of Content -->
 
 		</div>
 	</div>
 
-	<!-- Footer -->
-
-	<!-- <div class="footer"> -->
-	<footer class="footer">
-		<div class="container">
-			<p class="small">
-				<br>2016 މި ވެބްސައިޓާއި މި ވެބްސައިޓްގެ ސަފްޙާތަކުގައި
-				ހިމެނިފައިވާ މަޢުލޫމާތުތަކަކީ އިންޓަރނެޓް މެދުވެރިކޮށް ހޯދިފައިވާ
-				މަޢުލޫމާތުތަކުގެ އަމިއްލަ ތަރުޖަމާއެވެ. އެހެންކަމުން މި
-				ވެބްސައިޓްގައި ކުށް ހުރުމަކީ އެކަށީގެންވާ ކަމެކެވެ. އެފަދަ ކުށެއް
-				ފެނިއްޖެނަމަ އެކަށް މި ސައިޓްގެ ޚިޔާލުފާޅުކުރާ ސެކްޝަން މެދުވެރިކޮށް
-				ހުށަހަޅުއްވައި ދެއްވާށެވެ.
-			</p>
-			<br>
-
-		</div>
-	</footer>
-	<!-- </div> -->
-
-	<!-- End of Footer -->
+<!-- Footer --><div id="footDiv"></div><!-- End of Footer -->
 
 </body>
 </html>
